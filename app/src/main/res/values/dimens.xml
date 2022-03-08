@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="trackImageWidth">50dp</dimen>
+    <dimen name="trackImageHeight">50dp</dimen>
+    <dimen name="trackLayoutLeftPadding">10dp</dimen>
+    <dimen name="trackLayoutRightPadding">5dp</dimen>
+    <dimen name="trackLayoutTopPadding">5dp</dimen>
+    <dimen name="trackLayoutBottomPadding">5dp</dimen>
+    <dimen name="trackNameAndAuthorLeftMargin">10dp</dimen>
+    <dimen name="trackNameAndAuthorRightMargin">0dp</dimen>
+    <dimen name="trackNameAndAuthorTopMargin">0dp</dimen>
+    <dimen name="trackNameAndAuthorBottomMargin">0dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="playlistLayoutLeftMargin">5dp</dimen>
+    <dimen name="playlistImageWidth">128dp</dimen>
+    <dimen name="playlistImageHeight">128dp</dimen>
+    <dimen name="playlistTextTopMargin">5dp</dimen>
+    <dimen name="trackDurationRightMargin">15dp</dimen>
+    <dimen name="cachedTrackImageWidth">15dp</dimen>
+    <dimen name="cachedTrackImageHeight">15dp</dimen>
+    <dimen name="createPlaylistBtnWidth">32dp</dimen>
+    <dimen name="createPlaylistBtnHeight">32dp</dimen>
+</resources>

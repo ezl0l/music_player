@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="track_loading_error">Error loading the track</string>
+</resources>
