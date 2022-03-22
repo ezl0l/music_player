@@ -23,14 +23,12 @@ public class Playlist {
     private List<Track> tracks;
 
     public Playlist(String name, int albumResId, List<Track> tracks) {
-        this.id = id;
         this.name = name;
         this.albumResId = albumResId;
         this.tracks = tracks;
     }
 
     public Playlist(String name, List<Track> tracks) {
-        this.id = id;
         this.name = name;
         this.tracks = tracks;
     }

@@ -6,6 +6,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import android.Manifest;
+import android.app.Dialog;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
@@ -144,8 +145,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(View view) {
                 Log.d("DIALOG", "1");
                 try {
-                    if(playlistDialog.isAdded())
-                        playlistDialog.getDialog().show();
+                    Dialog dialog = playlistDialog.getDialog();
+                    if(dialog != null && playlistDialog.isAdded())
+                        dialog.show();
                     else
                         playlistDialog.show(getSupportFragmentManager(), "dialog");
                 } catch (IllegalStateException e) {
@@ -196,6 +198,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.d("My", currentTitle + " " + currentID);
                 tracks.add(new Track(currentID, currentDuration / 1000f, currentTitle, currentArtist, currentPath));
             }
+            songCursor.close();
         } else
             Log.d("My", "NULL");
         return tracks;
